@@ -1,0 +1,4 @@
+-- @module like
+
+-----------------------
+return nil

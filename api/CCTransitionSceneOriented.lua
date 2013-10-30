@@ -4,7 +4,7 @@
 -- @function [parent=#CCTransitionSceneOriented] create
 -- @param  t
 -- @param  scene
--- @param  o
+-- @param  orientation
 
 -----------------------
 return nil

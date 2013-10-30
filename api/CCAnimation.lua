@@ -8,16 +8,17 @@
 
 -----------------------
 -- @function [parent=#CCAnimation] create
+-- @param  arrayOfAnimationFrameNames
+-- @param  delayPerUnit
+
+-----------------------
+-- @function [parent=#CCAnimation] create
 -- @param  void
 
 -----------------------
 -- @function [parent=#CCAnimation] createWithSpriteFrames
 -- @param  arrayOfSpriteFrameNames
--- @param  delay
-
------------------------
--- @function [parent=#CCAnimation] createWithSpriteFrames
--- @param  arrayOfSpriteFrameNames
+-- @param  0f
 
 -----------------------
 -- @function [parent=#CCAnimation] addSpriteFrame
@@ -46,24 +47,15 @@
 -----------------------
 -- @function [parent=#CCAnimation] setDelayPerUnit
 -- @param  self
--- @param  fDelayPerUnits
+-- @param  delay
 
 -----------------------
 -- @function [parent=#CCAnimation] getDuration
 -- @param  self
 
 -----------------------
--- @function [parent=#CCAnimation] copy
--- @param  self
-
------------------------
 -- @function [parent=#CCAnimation] getFrames
 -- @param  self
-
------------------------
--- @function [parent=#CCAnimation] setFrames
--- @param  self
--- @param  pFrames
 
 -----------------------
 -- @function [parent=#CCAnimation] getRestoreOriginalFrame
@@ -72,7 +64,7 @@
 -----------------------
 -- @function [parent=#CCAnimation] setRestoreOriginalFrame
 -- @param  self
--- @param  bRestoreFrame
+-- @param  v
 
 -----------------------
 -- @function [parent=#CCAnimation] getLoops
@@ -81,7 +73,7 @@
 -----------------------
 -- @function [parent=#CCAnimation] setLoops
 -- @param  self
--- @param  uLoops
+-- @param  loops
 
 -----------------------
 return nil

@@ -1,0 +1,4 @@
+-- @module CCDisplayData
+
+-----------------------
+return nil

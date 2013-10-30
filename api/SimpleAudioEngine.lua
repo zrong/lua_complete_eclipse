@@ -40,6 +40,24 @@
 -- @param  self
 
 -----------------------
+-- @function [parent=#SimpleAudioEngine] getBackgroundMusicVolume
+-- @param  self
+
+-----------------------
+-- @function [parent=#SimpleAudioEngine] setBackgroundMusicVolume
+-- @param  self
+-- @param  volume
+
+-----------------------
+-- @function [parent=#SimpleAudioEngine] getEffectsVolume
+-- @param  self
+
+-----------------------
+-- @function [parent=#SimpleAudioEngine] setEffectsVolume
+-- @param  self
+-- @param  volume
+
+-----------------------
 -- @function [parent=#SimpleAudioEngine] playEffect
 -- @param  self
 -- @param  pszFilePath
@@ -61,22 +79,26 @@
 -- @param  pszFilePath
 
 -----------------------
--- @function [parent=#SimpleAudioEngine] getBackgroundMusicVolume
+-- @function [parent=#SimpleAudioEngine] pauseEffect
+-- @param  self
+-- @param  nSoundId
+
+-----------------------
+-- @function [parent=#SimpleAudioEngine] resumeEffect
+-- @param  self
+-- @param  nSoundId
+
+-----------------------
+-- @function [parent=#SimpleAudioEngine] pauseAllEffects
 -- @param  self
 
 -----------------------
--- @function [parent=#SimpleAudioEngine] setBackgroundMusicVolume
--- @param  self
--- @param  volume
-
------------------------
--- @function [parent=#SimpleAudioEngine] getEffectsVolume
+-- @function [parent=#SimpleAudioEngine] resumeAllEffects
 -- @param  self
 
 -----------------------
--- @function [parent=#SimpleAudioEngine] setEffectsVolume
+-- @function [parent=#SimpleAudioEngine] stopAllEffects
 -- @param  self
--- @param  volume
 
 -----------------------
 return nil

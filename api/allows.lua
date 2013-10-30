@@ -1,0 +1,4 @@
+-- @module allows
+
+-----------------------
+return nil

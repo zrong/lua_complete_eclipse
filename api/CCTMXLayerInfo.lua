@@ -1,13 +1,8 @@
 -- @module CCTMXLayerInfo
 
 -----------------------
--- @function [parent=#CCTMXLayerInfo] getProperties
+-- @function [parent=#CCTMXLayerInfo] CCTMXLayerInfo
 -- @param  self
-
------------------------
--- @function [parent=#CCTMXLayerInfo] setProperties
--- @param  self
--- @param  pval
 
 -----------------------
 return nil

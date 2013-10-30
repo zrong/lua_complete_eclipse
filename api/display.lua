@@ -103,6 +103,33 @@
 -- @field [parent=#display] COLOR_BLACK
 
 -----------------------
+-- @field [parent=#display] COLOR_RED
+
+-----------------------
+-- @field [parent=#display] COLOR_GREEN
+
+-----------------------
+-- @field [parent=#display] COLOR_BLUE
+
+-----------------------
+-- @field [parent=#display] AUTO_SIZE
+
+-----------------------
+-- @field [parent=#display] FIXED_SIZE
+
+-----------------------
+-- @field [parent=#display] LEFT_TO_RIGHT
+
+-----------------------
+-- @field [parent=#display] RIGHT_TO_LEFT
+
+-----------------------
+-- @field [parent=#display] TOP_TO_BOTTOM
+
+-----------------------
+-- @field [parent=#display] BOTTOM_TO_TOP
+
+-----------------------
 -- @field [parent=#display] CENTER
 
 -----------------------
@@ -163,9 +190,10 @@
 -- @field [parent=#display] TEXTURES_PIXEL_FORMAT
 
 -----------------------
--- @function [parent=#display] setTexturePixelFormat
--- @param  filename
--- @param  format
+-- @field [parent=#display] PROGRESS_TIMER_BAR
+
+-----------------------
+-- @field [parent=#display] PROGRESS_TIMER_RADIAL
 
 -----------------------
 -- @function [parent=#display] newScene
@@ -198,6 +226,10 @@
 -- @function [parent=#display] newLayer
 
 -----------------------
+-- @function [parent=#display] newColorLayer
+-- @param  color
+
+-----------------------
 -- @function [parent=#display] newNode
 
 -----------------------
@@ -211,12 +243,16 @@
 -- @param  y
 
 -----------------------
--- @function [parent=#display] newBackgroundSprite
+-- @function [parent=#display] newScale9Sprite
 -- @param  filename
+-- @param  x
+-- @param  y
+-- @param  size
 
 -----------------------
--- @function [parent=#display] newBackgroundTilesSprite
+-- @function [parent=#display] newTilesSprite
 -- @param  filename
+-- @param  rect
 
 -----------------------
 -- @function [parent=#display] newCircle
@@ -240,9 +276,9 @@
 -- @param  y
 
 -----------------------
--- @function [parent=#display] pixels
--- @param  x
--- @param  y
+-- @function [parent=#display] addImageAsync
+-- @param  imagePath
+-- @param  callback
 
 -----------------------
 -- @function [parent=#display] addSpriteFramesWithFile
@@ -253,6 +289,11 @@
 -- @function [parent=#display] removeSpriteFramesWithFile
 -- @param  plistFilename
 -- @param  imageName
+
+-----------------------
+-- @function [parent=#display] setTexturePixelFormat
+-- @param  filename
+-- @param  format
 
 -----------------------
 -- @function [parent=#display] removeSpriteFrameByImageName
@@ -268,12 +309,6 @@
 -- @param  frameName
 
 -----------------------
--- @function [parent=#display] newSpriteWithFrame
--- @param  frame
--- @param  x
--- @param  y
-
------------------------
 -- @function [parent=#display] newFrames
 -- @param  pattern
 -- @param  begin
@@ -286,8 +321,25 @@
 -- @param  time
 
 -----------------------
--- @function [parent=#display] newAnimate
+-- @function [parent=#display] setAnimationCache
+-- @param  name
 -- @param  animation
+
+-----------------------
+-- @function [parent=#display] getAnimationCache
+-- @param  name
+
+-----------------------
+-- @function [parent=#display] removeAnimationCache
+-- @param  name
+
+-----------------------
+-- @function [parent=#display] removeUnusedSpriteFrames
+
+-----------------------
+-- @function [parent=#display] newProgressTimer
+-- @param  image
+-- @param  progresssType
 
 -----------------------
 return nil

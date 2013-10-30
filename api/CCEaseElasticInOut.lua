@@ -3,7 +3,11 @@
 -----------------------
 -- @function [parent=#CCEaseElasticInOut] create
 -- @param  pAction
--- @param  3
+-- @param  fPeriod
+
+-----------------------
+-- @function [parent=#CCEaseElasticInOut] create
+-- @param  pAction
 
 -----------------------
 return nil

@@ -39,6 +39,9 @@
 -- @param  productId
 
 -----------------------
+-- @function [parent=#Store] restore
+
+-----------------------
 -- @function [parent=#Store] finishTransaction
 -- @param  transaction
 

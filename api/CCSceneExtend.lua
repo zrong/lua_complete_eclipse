@@ -8,7 +8,7 @@
 -- @param  target
 
 -----------------------
--- @function [parent=#CCSceneExtend] addAutoCleanImage
+-- @function [parent=#CCSceneExtend] markAutoCleanupImage
 -- @param  self
 -- @param  imageName
 

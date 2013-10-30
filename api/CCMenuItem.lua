@@ -1,6 +1,9 @@
 -- @module CCMenuItem
 
 -----------------------
+-- @function [parent=#CCMenuItem] create
+
+-----------------------
 -- @function [parent=#CCMenuItem] rect
 -- @param  self
 
@@ -17,27 +20,27 @@
 -- @param  self
 
 -----------------------
--- @function [parent=#CCMenuItem] setEnabled
+-- @function [parent=#CCMenuItem] registerScriptTapHandler
 -- @param  self
--- @param  enabled
+-- @param  nHandler
+
+-----------------------
+-- @function [parent=#CCMenuItem] unregisterScriptTapHandler
+-- @param  self
+-- @param  void
 
 -----------------------
 -- @function [parent=#CCMenuItem] isEnabled
 -- @param  self
 
 -----------------------
+-- @function [parent=#CCMenuItem] setEnabled
+-- @param  self
+-- @param  value
+
+-----------------------
 -- @function [parent=#CCMenuItem] isSelected
 -- @param  self
-
------------------------
--- @function [parent=#CCMenuItem] registerScriptTapHandler
--- @param  self
--- @param  funcID
-
------------------------
--- @function [parent=#CCMenuItem] unregisterScriptTapHandler
--- @param  self
--- @param  void
 
 -----------------------
 return nil

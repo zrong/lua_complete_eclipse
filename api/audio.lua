@@ -64,12 +64,6 @@
 -- @field [parent=#audio] unloadEffect
 
 -----------------------
--- @function [parent=#audio] disable
-
------------------------
--- @function [parent=#audio] enable
-
------------------------
 -- @function [parent=#audio] getMusicVolume
 
 -----------------------

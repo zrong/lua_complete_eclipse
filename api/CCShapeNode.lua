@@ -1,12 +1,12 @@
 -- @module CCShapeNode
 
 -----------------------
--- @function [parent=#CCShapeNode] getColor
+-- @function [parent=#CCShapeNode] getLineColor
 -- @param  self
 -- @param  void
 
 -----------------------
--- @function [parent=#CCShapeNode] setColor
+-- @function [parent=#CCShapeNode] setLineColor
 -- @param  self
 -- @param  color
 

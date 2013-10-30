@@ -2,7 +2,7 @@
 
 -----------------------
 -- @function [parent=#CCCallFunc] create
--- @param  funcID
+-- @param  nHandler
 
 -----------------------
 return nil

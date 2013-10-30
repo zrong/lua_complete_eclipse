@@ -42,9 +42,41 @@
 -- @param  void
 
 -----------------------
+-- @function [parent=#CCEditBox] setFont
+-- @param  self
+-- @param  pFontName
+-- @param  fontSize
+
+-----------------------
+-- @function [parent=#CCEditBox] setFontName
+-- @param  self
+-- @param  pFontName
+
+-----------------------
+-- @function [parent=#CCEditBox] setFontSize
+-- @param  self
+-- @param  fontSize
+
+-----------------------
 -- @function [parent=#CCEditBox] setFontColor
 -- @param  self
 -- @param  color
+
+-----------------------
+-- @function [parent=#CCEditBox] setPlaceholderFont
+-- @param  self
+-- @param  pFontName
+-- @param  fontSize
+
+-----------------------
+-- @function [parent=#CCEditBox] setPlaceholderFontName
+-- @param  self
+-- @param  pFontName
+
+-----------------------
+-- @function [parent=#CCEditBox] setPlaceholderFontSize
+-- @param  self
+-- @param  fontSize
 
 -----------------------
 -- @function [parent=#CCEditBox] setPlaceholderFontColor
@@ -84,6 +116,10 @@
 -- @function [parent=#CCEditBox] setReturnType
 -- @param  self
 -- @param  returnType
+
+-----------------------
+-- @function [parent=#CCEditBox] getReturnType
+-- @param  self
 
 -----------------------
 return nil

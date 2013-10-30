@@ -11,7 +11,19 @@
 -----------------------
 -- @function [parent=#CCRect] CCRect
 -- @param  self
--- @param  void
+-- @param  other
+
+-----------------------
+-- @function [parent=#CCRect] CCRect
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCRect] setRect
+-- @param  self
+-- @param  x
+-- @param  y
+-- @param  width
+-- @param  height
 
 -----------------------
 -- @function [parent=#CCRect] getMinX

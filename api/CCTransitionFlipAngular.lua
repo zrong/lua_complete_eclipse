@@ -4,7 +4,12 @@
 -- @function [parent=#CCTransitionFlipAngular] create
 -- @param  t
 -- @param  s
--- @param  kCCTransitionOrientationRightOver
+-- @param  o
+
+-----------------------
+-- @function [parent=#CCTransitionFlipAngular] create
+-- @param  t
+-- @param  s
 
 -----------------------
 return nil

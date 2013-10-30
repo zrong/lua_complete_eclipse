@@ -25,6 +25,10 @@
 -- @field [parent=#ui] TEXT_VALIGN_BOTTOM
 
 -----------------------
+-- @function [parent=#ui] newEditBox
+-- @param  params
+
+-----------------------
 -- @function [parent=#ui] newMenu
 -- @param  items
 

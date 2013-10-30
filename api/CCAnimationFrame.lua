@@ -7,7 +7,7 @@
 -----------------------
 -- @function [parent=#CCAnimationFrame] setSpriteFrame
 -- @param  self
--- @param  pSpFrame
+-- @param  frame
 
 -----------------------
 -- @function [parent=#CCAnimationFrame] getDelayUnits
@@ -16,16 +16,7 @@
 -----------------------
 -- @function [parent=#CCAnimationFrame] setDelayUnits
 -- @param  self
--- @param  fDelayUnits
-
------------------------
--- @function [parent=#CCAnimationFrame] getUserInfo
--- @param  self
-
------------------------
--- @function [parent=#CCAnimationFrame] setUserInfo
--- @param  self
--- @param  pDict
+-- @param  delay
 
 -----------------------
 return nil

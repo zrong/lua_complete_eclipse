@@ -13,11 +13,10 @@
 -----------------------
 -- @function [parent=#CCFollow] create
 -- @param  pFollowedNode
--- @param  rect
-
------------------------
--- @function [parent=#CCFollow] create
--- @param  pFollowedNode
+-- @param  0
+-- @param  0
+-- @param  0
+-- @param  0
 
 -----------------------
 return nil

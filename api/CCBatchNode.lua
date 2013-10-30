@@ -1,0 +1,4 @@
+-- @module CCBatchNode
+
+-----------------------
+return nil

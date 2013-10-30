@@ -15,28 +15,6 @@
 -- @param  y
 
 -----------------------
--- @function [parent=#CCNodeExtend] pixels
--- @param  self
--- @param  x
--- @param  y
-
------------------------
--- @function [parent=#CCNodeExtend] removeFromParentAndCleanup
--- @param  self
--- @param  isCleanup
-
------------------------
--- @function [parent=#CCNodeExtend] removeSelf
--- @param  self
--- @param  isCleanup
-
------------------------
--- @function [parent=#CCNodeExtend] scheduleUpdate
--- @param  self
--- @param  callback
--- @param  priority
-
------------------------
 -- @function [parent=#CCNodeExtend] schedule
 -- @param  self
 -- @param  callback
@@ -47,15 +25,6 @@
 -- @param  self
 -- @param  callback
 -- @param  delay
-
------------------------
--- @function [parent=#CCNodeExtend] removeAction
--- @param  self
--- @param  action
-
------------------------
--- @function [parent=#CCNodeExtend] stopAllActions
--- @param  self
 
 -----------------------
 -- @function [parent=#CCNodeExtend] onEnter
@@ -78,13 +47,15 @@
 -- @param  self
 
 -----------------------
--- @function [parent=#CCNodeExtend] registerNodeEvent
+-- @function [parent=#CCNodeExtend] setNodeEventEnabled
 -- @param  self
+-- @param  enabled
 -- @param  handler
 
 -----------------------
--- @function [parent=#CCNodeExtend] unregisterNodeEvent
+-- @function [parent=#CCNodeExtend] removeSelf
 -- @param  self
+-- @param  cleanup
 
 -----------------------
 return nil

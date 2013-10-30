@@ -20,4 +20,12 @@
 -- @param  method
 
 -----------------------
+-- @function [parent=#network] makeCookieString
+-- @param  cookie
+
+-----------------------
+-- @function [parent=#network] parseCookie
+-- @param  cookieString
+
+-----------------------
 return nil

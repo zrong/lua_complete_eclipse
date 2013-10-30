@@ -1,6 +1,16 @@
 -- @module CCCamera
 
 -----------------------
+-- @function [parent=#CCCamera] CCCamera
+-- @param  self
+-- @param  void
+
+-----------------------
+-- @function [parent=#CCCamera] init
+-- @param  self
+-- @param  void
+
+-----------------------
 -- @function [parent=#CCCamera] setDirty
 -- @param  self
 -- @param  bValue

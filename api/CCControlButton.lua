@@ -1,6 +1,14 @@
 -- @module CCControlButton
 
 -----------------------
+-- @function [parent=#CCControlButton] getCurrentTitle
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCControlButton] getCurrentTitleColor
+-- @param  self
+
+-----------------------
 -- @function [parent=#CCControlButton] doesAdjustBackgroundImage
 -- @param  self
 
@@ -12,67 +20,39 @@
 -----------------------
 -- @function [parent=#CCControlButton] getTitleLabel
 -- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCControlButton] setTitleLabel
--- @param  self
--- @param  titleLabel
 
 -----------------------
 -- @function [parent=#CCControlButton] getBackgroundSprite
 -- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCControlButton] setBackgroundSprite
--- @param  self
--- @param  backgroundSprite
 
 -----------------------
 -- @function [parent=#CCControlButton] getPreferredSize
 -- @param  self
--- @param  void
 
 -----------------------
 -- @function [parent=#CCControlButton] setPreferredSize
 -- @param  self
--- @param  size
+-- @param  s
 
 -----------------------
 -- @function [parent=#CCControlButton] getZoomOnTouchDown
 -- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCControlButton] setZoomOnTouchDown
--- @param  self
--- @param  zoom
 
 -----------------------
 -- @function [parent=#CCControlButton] getLabelAnchorPoint
 -- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCControlButton] setLabelAnchorPoint
--- @param  self
--- @param  point
 
 -----------------------
 -- @function [parent=#CCControlButton] isPushed
 -- @param  self
--- @param  void
 
 -----------------------
 -- @function [parent=#CCControlButton] getVerticalMargin
 -- @param  self
--- @param  void
 
 -----------------------
 -- @function [parent=#CCControlButton] getHorizontalOrigin
 -- @param  self
--- @param  void
 
 -----------------------
 -- @function [parent=#CCControlButton] setMargins
@@ -82,14 +62,14 @@
 
 -----------------------
 -- @function [parent=#CCControlButton] create
--- @param  label
--- @param  backgroundSprite
-
------------------------
--- @function [parent=#CCControlButton] create
 -- @param  title
 -- @param  fontName
 -- @param  fontSize
+
+-----------------------
+-- @function [parent=#CCControlButton] create
+-- @param  label
+-- @param  backgroundSprite
 
 -----------------------
 -- @function [parent=#CCControlButton] create

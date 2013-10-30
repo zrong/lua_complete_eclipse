@@ -1,6 +1,17 @@
 -- @module transition
 
 -----------------------
+-- @function [parent=#transition] newEasing
+-- @param  action
+-- @param  easingName
+-- @param  more
+
+-----------------------
+-- @function [parent=#transition] create
+-- @param  action
+-- @param  args
+
+-----------------------
 -- @function [parent=#transition] execute
 -- @param  target
 -- @param  action
@@ -57,7 +68,6 @@
 -- @function [parent=#transition] playAnimationForever
 -- @param  target
 -- @param  animation
--- @param  isRestoreOriginalFrame
 -- @param  delay
 
 -----------------------

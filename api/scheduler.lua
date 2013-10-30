@@ -3,13 +3,11 @@
 -----------------------
 -- @function [parent=#scheduler] scheduleUpdateGlobal
 -- @param  listener
--- @param  isPaused
 
 -----------------------
 -- @function [parent=#scheduler] scheduleGlobal
 -- @param  listener
 -- @param  interval
--- @param  isPaused
 
 -----------------------
 -- @function [parent=#scheduler] unscheduleGlobal

@@ -11,6 +11,16 @@
 -- @param  void
 
 -----------------------
+-- @function [parent=#CCObject] autorelease
+-- @param  self
+-- @param  void
+
+-----------------------
+-- @function [parent=#CCObject] copy
+-- @param  self
+-- @param  void
+
+-----------------------
 -- @function [parent=#CCObject] isSingleReference
 -- @param  self
 -- @param  void
@@ -21,17 +31,9 @@
 -- @param  void
 
 -----------------------
--- @function [parent=#CCObject] isEqual
+-- @function [parent=#CCObject] update
 -- @param  self
--- @param  pObject
-
------------------------
--- @function [parent=#CCObject] copy
--- @param  self
-
------------------------
--- @function [parent=#CCObject] autorelease
--- @param  self
+-- @param  dt
 
 -----------------------
 return nil

@@ -1,13 +1,27 @@
 -- @module CCRenderTexture
 
 -----------------------
--- @function [parent=#CCRenderTexture] getSprite
+-- @function [parent=#CCRenderTexture] format
 -- @param  self
+-- @param  valid
 
 -----------------------
--- @function [parent=#CCRenderTexture] setSprite
--- @param  self
--- @param  psprite
+-- @function [parent=#CCRenderTexture] create
+-- @param  w
+-- @param  h
+-- @param  eFormat
+-- @param  uDepthStencilFormat
+
+-----------------------
+-- @function [parent=#CCRenderTexture] create
+-- @param  w
+-- @param  h
+-- @param  eFormat
+
+-----------------------
+-- @function [parent=#CCRenderTexture] create
+-- @param  w
+-- @param  h
 
 -----------------------
 -- @function [parent=#CCRenderTexture] begin
@@ -41,6 +55,10 @@
 -- @param  a
 
 -----------------------
+-- @function [parent=#CCRenderTexture] endToLua
+-- @param  self
+
+-----------------------
 -- @function [parent=#CCRenderTexture] clear
 -- @param  self
 -- @param  r
@@ -57,39 +75,6 @@
 -- @function [parent=#CCRenderTexture] clearStencil
 -- @param  self
 -- @param  stencilValue
-
------------------------
--- @function [parent=#CCRenderTexture] newCCImage
--- @param  self
-
------------------------
--- @function [parent=#CCRenderTexture] saveToFile
--- @param  self
--- @param  name
--- @param  format
-
------------------------
--- @function [parent=#CCRenderTexture] saveToFile
--- @param  self
--- @param  szFilePath
-
------------------------
--- @function [parent=#CCRenderTexture] create
--- @param  w
--- @param  h
--- @param  eFormat
--- @param  uDepthStencilFormat
-
------------------------
--- @function [parent=#CCRenderTexture] create
--- @param  w
--- @param  h
--- @param  eFormat
-
------------------------
--- @function [parent=#CCRenderTexture] create
--- @param  w
--- @param  h
 
 -----------------------
 return nil

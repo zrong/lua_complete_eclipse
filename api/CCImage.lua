@@ -1,0 +1,4 @@
+-- @module CCImage
+
+-----------------------
+return nil

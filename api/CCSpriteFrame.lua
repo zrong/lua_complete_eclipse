@@ -53,11 +53,12 @@
 -----------------------
 -- @function [parent=#CCSpriteFrame] getOriginalSize
 -- @param  self
+-- @param  void
 
 -----------------------
 -- @function [parent=#CCSpriteFrame] setOriginalSize
 -- @param  self
--- @param  size
+-- @param  sizeInPixels
 
 -----------------------
 -- @function [parent=#CCSpriteFrame] getTexture
@@ -72,6 +73,7 @@
 -----------------------
 -- @function [parent=#CCSpriteFrame] getOffset
 -- @param  self
+-- @param  void
 
 -----------------------
 -- @function [parent=#CCSpriteFrame] setOffset

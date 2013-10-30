@@ -13,7 +13,7 @@
 -----------------------
 -- @function [parent=#CCSpeed] create
 -- @param  pAction
--- @param  fRate
+-- @param  fSpeed
 
 -----------------------
 return nil

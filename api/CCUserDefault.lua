@@ -4,6 +4,18 @@
 -- @function [parent=#CCUserDefault] getBoolForKey
 -- @param  self
 -- @param  pKey
+-- @param  defaultValue
+
+-----------------------
+-- @function [parent=#CCUserDefault] getBoolForKey
+-- @param  self
+-- @param  pKey
+
+-----------------------
+-- @function [parent=#CCUserDefault] getIntegerForKey
+-- @param  self
+-- @param  pKey
+-- @param  defaultValue
 
 -----------------------
 -- @function [parent=#CCUserDefault] getIntegerForKey
@@ -14,11 +26,29 @@
 -- @function [parent=#CCUserDefault] getFloatForKey
 -- @param  self
 -- @param  pKey
+-- @param  defaultValue
+
+-----------------------
+-- @function [parent=#CCUserDefault] getFloatForKey
+-- @param  self
+-- @param  pKey
 
 -----------------------
 -- @function [parent=#CCUserDefault] getDoubleForKey
 -- @param  self
 -- @param  pKey
+-- @param  defaultValue
+
+-----------------------
+-- @function [parent=#CCUserDefault] getDoubleForKey
+-- @param  self
+-- @param  pKey
+
+-----------------------
+-- @function [parent=#CCUserDefault] getStringForKey
+-- @param  self
+-- @param  pKey
+-- @param  defaultValue
 
 -----------------------
 -- @function [parent=#CCUserDefault] getStringForKey
@@ -67,6 +97,9 @@
 
 -----------------------
 -- @function [parent=#CCUserDefault] getXMLFilePath
+
+-----------------------
+-- @function [parent=#CCUserDefault] isXMLFileExist
 
 -----------------------
 return nil

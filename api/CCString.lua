@@ -31,7 +31,7 @@
 -----------------------
 -- @function [parent=#CCString] compare
 -- @param  self
--- @param  str
+-- @param  int
 
 -----------------------
 -- @function [parent=#CCString] isEqual
@@ -40,12 +40,7 @@
 
 -----------------------
 -- @function [parent=#CCString] create
--- @param  pStr
-
------------------------
--- @function [parent=#CCString] createWithData
--- @param  pData
--- @param  nLen
+-- @param  str
 
 -----------------------
 -- @function [parent=#CCString] createWithContentsOfFile

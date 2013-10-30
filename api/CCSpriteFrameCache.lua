@@ -3,14 +3,14 @@
 -----------------------
 -- @function [parent=#CCSpriteFrameCache] addSpriteFramesWithFile
 -- @param  self
--- @param  pszPlist
--- @param  pobTexture
+-- @param  plist
+-- @param  textureFileName
 
 -----------------------
 -- @function [parent=#CCSpriteFrameCache] addSpriteFramesWithFile
 -- @param  self
--- @param  plist
--- @param  textureFileName
+-- @param  pszPlist
+-- @param  pobTexture
 
 -----------------------
 -- @function [parent=#CCSpriteFrameCache] addSpriteFramesWithFile

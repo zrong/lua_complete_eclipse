@@ -1,14 +1,9 @@
 -- @module CCTouchDispatcher
 
 -----------------------
--- @function [parent=#CCTouchDispatcher] isDispatchEvents
+-- @function [parent=#CCTouchDispatcher] removeAllDelegates
 -- @param  self
 -- @param  void
-
------------------------
--- @function [parent=#CCTouchDispatcher] setDispatchEvents
--- @param  self
--- @param  bDispatchEvents
 
 -----------------------
 return nil

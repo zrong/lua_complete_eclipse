@@ -45,24 +45,4 @@
 -- @param  drawLineToCenter
 
 -----------------------
--- @function [parent=#CCCircleShape] getScaleX
--- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCCircleShape] setScaleX
--- @param  self
--- @param  xScale
-
------------------------
--- @function [parent=#CCCircleShape] getScaleY
--- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCCircleShape] setScaleY
--- @param  self
--- @param  yScale
-
------------------------
 return nil

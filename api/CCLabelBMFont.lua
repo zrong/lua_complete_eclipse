@@ -1,20 +1,65 @@
 -- @module CCLabelBMFont
 
 -----------------------
--- @function [parent=#CCLabelBMFont] setString
+-- @function [parent=#CCLabelBMFont] CCLabelBMFont
 -- @param  self
--- @param  label
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] init
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] initWithString
+-- @param  self
+-- @param  str
+-- @param  fntFile
+-- @param  kCCLabelAutomaticWidth
+-- @param  kCCTextAlignmentLeft
+-- @param  0
+-- @param  0
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] purgeCachedData
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] create
+-- @param  text
+-- @param  fntFile
+-- @param  width
+-- @param  alignment
+-- @param  imageOffset
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] create
+-- @param  text
+-- @param  fntFile
+-- @param  width
+-- @param  alignment
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] create
+-- @param  text
+-- @param  fntFile
+-- @param  width
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] create
+-- @param  text
+-- @param  fntFile
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] create
 
 -----------------------
 -- @function [parent=#CCLabelBMFont] setString
 -- @param  self
--- @param  label
--- @param  fromUpdate
+-- @param  newString
+-- @param  needUpdateLabel
 
 -----------------------
--- @function [parent=#CCLabelBMFont] setCString
+-- @function [parent=#CCLabelBMFont] setString
 -- @param  self
--- @param  label
+-- @param  newString
 
 -----------------------
 -- @function [parent=#CCLabelBMFont] getString
@@ -22,14 +67,13 @@
 -- @param  void
 
 -----------------------
--- @function [parent=#CCLabelBMFont] updateString
+-- @function [parent=#CCLabelBMFont] setCString
 -- @param  self
--- @param  fromUpdate
+-- @param  label
 
 -----------------------
--- @function [parent=#CCLabelBMFont] setAnchorPoint
+-- @function [parent=#CCLabelBMFont] updateLabel
 -- @param  self
--- @param  var
 
 -----------------------
 -- @function [parent=#CCLabelBMFont] setAlignment
@@ -47,50 +91,6 @@
 -- @param  breakWithoutSpace
 
 -----------------------
--- @function [parent=#CCLabelBMFont] setScale
--- @param  self
--- @param  scale
-
------------------------
--- @function [parent=#CCLabelBMFont] setScaleX
--- @param  self
--- @param  scaleX
-
------------------------
--- @function [parent=#CCLabelBMFont] setScaleY
--- @param  self
--- @param  scaleY
-
------------------------
--- @function [parent=#CCLabelBMFont] setFntFile
--- @param  self
--- @param  fntFile
-
------------------------
--- @function [parent=#CCLabelBMFont] getFntFile
--- @param  self
-
------------------------
--- @function [parent=#CCLabelBMFont] setColor
--- @param  self
--- @param  color
-
------------------------
--- @function [parent=#CCLabelBMFont] getColor
--- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCLabelBMFont] getOpacity
--- @param  self
--- @param  void
-
------------------------
--- @function [parent=#CCLabelBMFont] setOpacity
--- @param  self
--- @param  opacity
-
------------------------
 -- @function [parent=#CCLabelBMFont] isOpacityModifyRGB
 -- @param  self
 
@@ -100,19 +100,68 @@
 -- @param  isOpacityModifyRGB
 
 -----------------------
--- @function [parent=#CCLabelBMFont] purgeCachedData
+-- @function [parent=#CCLabelBMFont] getOpacity
+-- @param  self
 
 -----------------------
--- @function [parent=#CCLabelBMFont] create
--- @param  str
+-- @function [parent=#CCLabelBMFont] getDisplayedOpacity
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] setOpacity
+-- @param  self
+-- @param  opacity
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] updateDisplayedOpacity
+-- @param  self
+-- @param  parentOpacity
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] isCascadeOpacityEnabled
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] setCascadeOpacityEnabled
+-- @param  self
+-- @param  cascadeOpacityEnabled
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] getColor
+-- @param  self
+-- @param  void
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] getDisplayedColor
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] setColor
+-- @param  self
+-- @param  color
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] updateDisplayedColor
+-- @param  self
+-- @param  parentColor
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] isCascadeColorEnabled
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] setCascadeColorEnabled
+-- @param  self
+-- @param  cascadeColorEnabled
+
+-----------------------
+-- @function [parent=#CCLabelBMFont] setFntFile
+-- @param  self
 -- @param  fntFile
--- @param  kCCLabelAutomaticWidth
--- @param  kCCTextAlignmentLeft
--- @param  0
--- @param  0
 
 -----------------------
--- @function [parent=#CCLabelBMFont] create
+-- @function [parent=#CCLabelBMFont] getFntFile
+-- @param  self
 
 -----------------------
 return nil

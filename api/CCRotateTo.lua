@@ -2,7 +2,13 @@
 
 -----------------------
 -- @function [parent=#CCRotateTo] create
--- @param  duration
+-- @param  fDuration
+-- @param  fDeltaAngleX
+-- @param  fDeltaAngleY
+
+-----------------------
+-- @function [parent=#CCRotateTo] create
+-- @param  fDuration
 -- @param  fDeltaAngle
 
 -----------------------

@@ -8,15 +8,27 @@
 -- @param  pObject
 
 -----------------------
--- @function [parent=#CCArray] createWithArray
--- @param  otherArray
-
------------------------
 -- @function [parent=#CCArray] createWithCapacity
 -- @param  capacity
 
 -----------------------
+-- @function [parent=#CCArray] createWithArray
+-- @param  otherArray
+
+-----------------------
 -- @function [parent=#CCArray] createWithContentsOfFile
+-- @param  pFileName
+
+-----------------------
+-- @function [parent=#CCArray] arrayWithContentsOfFile
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCArray] release
+-- @param  self
+
+-----------------------
+-- @function [parent=#CCArray] createWithContentsOfFileThreadSafe
 -- @param  pFileName
 
 -----------------------
@@ -46,14 +58,14 @@
 -- @param  self
 
 -----------------------
--- @function [parent=#CCArray] isEqualToArray
--- @param  self
--- @param  pOtherArray
-
------------------------
 -- @function [parent=#CCArray] containsObject
 -- @param  self
 -- @param  object
+
+-----------------------
+-- @function [parent=#CCArray] isEqualToArray
+-- @param  self
+-- @param  pOtherArray
 
 -----------------------
 -- @function [parent=#CCArray] addObject
@@ -120,15 +132,15 @@
 -- @param  index2
 
 -----------------------
--- @function [parent=#CCArray] reverseObjects
--- @param  self
-
------------------------
 -- @function [parent=#CCArray] replaceObjectAtIndex
 -- @param  self
 -- @param  uIndex
 -- @param  pObject
 -- @param  true
+
+-----------------------
+-- @function [parent=#CCArray] reverseObjects
+-- @param  self
 
 -----------------------
 -- @function [parent=#CCArray] reduceMemoryFootprint

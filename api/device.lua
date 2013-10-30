@@ -4,9 +4,6 @@
 -- @field [parent=#device] platform
 
 -----------------------
--- @field [parent=#device] environment
-
------------------------
 -- @field [parent=#device] model
 
 -----------------------
@@ -22,34 +19,7 @@
 -- @field [parent=#device] platform
 
 -----------------------
--- @field [parent=#device] platform
-
------------------------
 -- @field [parent=#device] model
-
------------------------
--- @field [parent=#device] model
-
------------------------
--- @field [parent=#device] platform
-
------------------------
--- @field [parent=#device] environment
-
------------------------
--- @field [parent=#device] language
-
------------------------
--- @field [parent=#device] writeablePath
-
------------------------
--- @field [parent=#device] documentsPath
-
------------------------
--- @field [parent=#device] platform
-
------------------------
--- @field [parent=#device] environment
 
 -----------------------
 -- @field [parent=#device] model
@@ -58,10 +28,46 @@
 -- @field [parent=#device] language
 
 -----------------------
--- @field [parent=#device] writeablePath
+-- @field [parent=#device] writablePath
 
 -----------------------
--- @field [parent=#device] documentsPath
+-- @field [parent=#device] cachePath
+
+-----------------------
+-- @field [parent=#device] directorySeparator
+
+-----------------------
+-- @field [parent=#device] pathSeparator
+
+-----------------------
+-- @field [parent=#device] platform
+
+-----------------------
+-- @field [parent=#device] directorySeparator
+
+-----------------------
+-- @field [parent=#device] pathSeparator
+
+-----------------------
+-- @field [parent=#device] platform
+
+-----------------------
+-- @field [parent=#device] model
+
+-----------------------
+-- @field [parent=#device] language
+
+-----------------------
+-- @field [parent=#device] writablePath
+
+-----------------------
+-- @field [parent=#device] cachePath
+
+-----------------------
+-- @field [parent=#device] directorySeparator
+
+-----------------------
+-- @field [parent=#device] pathSeparator
 
 -----------------------
 -- @function [parent=#device] showActivityIndicator

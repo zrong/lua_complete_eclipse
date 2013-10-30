@@ -3,13 +3,13 @@
 -----------------------
 -- @function [parent=#CCScaleBy] create
 -- @param  duration
--- @param  s
+-- @param  sx
+-- @param  sy
 
 -----------------------
 -- @function [parent=#CCScaleBy] create
 -- @param  duration
--- @param  sx
--- @param  sy
+-- @param  s
 
 -----------------------
 return nil
